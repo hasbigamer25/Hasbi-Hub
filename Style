@@ -70,3 +70,21 @@ end)
 Section:CreateButton("King", function()
 set_style("King")
 end)
+
+Section:CreateButton("Nagi", function()
+set_style("Nagi")
+end)
+
+local Section = Window:NewSection("Kiper")
+ 
+Section:CreateButton("Gagamaru", function()
+set_style("Gagamaru")
+end)
+
+Section:CreateButton("Aiku", function()
+set_style("Aiku")
+end)
+
+Section:CreateButton("Hiori", function()
+set_style("Hiori")
+end)
